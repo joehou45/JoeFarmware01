@@ -1,14 +1,14 @@
 {
- "package": "Loop-Plants-With-Filters-conf01",
+ "package": "Loop-Plants-With-Filters-01",
  "language": "python",
  "author": "rdegosse",
  "description": "Loop plants with filters, execute sequences and save meta data : CONFIG 01",
  "version": "1.0.0",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/rdegosse/Loop-Plants-With-Filters-conf01/master/manifest.json",
- "zip": "https://github.com/rdegosse/Loop-Plants-With-Filters-conf01/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/rdegosse/Loop-Plants-With-Filters-01/master/manifest.json",
+ "zip": "https://github.com/rdegosse/Loop-Plants-With-Filters-01/archive/master.zip",
  "executable": "python",
- "args": ["Loop-Plants-With-Filters-conf01-master/Loop-Plants-With-Filters/script.py"],
+ "args": ["Loop-Plants-With-Filters-01-master/Loop-Plants-With-Filters/script.py"],
  "config": [
   {"name": "pointname", "label": "Filter by plant name", "value": "*"},
   {"name": "openfarm_slug", "label": "Filter by Openfarm slug name", "value": "*"},
