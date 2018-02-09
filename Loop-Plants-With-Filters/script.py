@@ -11,18 +11,15 @@ if __name__ == "__main__":
 
     log('Start...', message_type='info', title=FARMWARE_NAME)
     
-    log(os.environ.keys(), message_type='info', title=FARMWARE_NAME)
     
     try:
-        #farmware = MyFarmware(FARMWARE_NAME)
-        pass
+        farmware = MyFarmware(FARMWARE_NAME)
     except Exception as e:
         log(e ,message_type='error', title=FARMWARE_NAME + " : init" )
         raise Exception(e)
     else:
         try:
-            #farmware.run()
-            pass
+            farmware.run()
         except Exception as e:
             log(e ,message_type='error', title=FARMWARE_NAME + " : run" )
             raise Exception(e)
